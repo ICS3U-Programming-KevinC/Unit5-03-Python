@@ -5,7 +5,7 @@
 # This program gets the percentage associated with the grade from the user
 
 # finds the percentage corresponding with the grade
-def getPercentage(grade):
+def get_percentage(grade):
     match grade:
         case "4+":
             return 98
@@ -42,7 +42,7 @@ def main():
     user_grade = input("Please enter a level grade: ")
 
     # calls getPercentage with the user input
-    percentage = getPercentage(user_grade)
+    percentage = get_percentage(user_grade)
 
     # checks if the grade inputted was 0
     if percentage == 0:
