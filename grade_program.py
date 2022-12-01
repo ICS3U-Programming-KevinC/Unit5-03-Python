@@ -41,7 +41,7 @@ def main():
     # gets user input for the level grade
     user_grade = input("Please enter a level grade: ")
 
-    # calls getPercentage with the user input
+    # calls get_percentage with the user input
     percentage = get_percentage(user_grade)
 
     # checks if the grade inputted was 0
