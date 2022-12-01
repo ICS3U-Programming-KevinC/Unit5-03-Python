@@ -2,7 +2,7 @@
 
 # Created by Kevin Csiffary
 # Date: Dec. 1, 2022
-# This program prints "Hello, World!" and has comments
+# This program gets the percentage associated with the grade from the user
 
 # finds the percentage corresponding with the grade
 def getPercentage(grade):
